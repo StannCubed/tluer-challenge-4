@@ -6,32 +6,34 @@ header {
 
 main {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     padding: 24px;
 }
 
-main p {
-    padding: 9px 20%;
+h1 {
+    font-size: 32px;
 }
 
-#highscores {
+#highScores {
     color: blueviolet;
     background-color: white;
     border: 0;
 }
 
-#highscores:hover {
+#highScores:hover {
     cursor: pointer;
     color: violet;
 }
 
-#startbutton {
+#startButton {
     color: aliceblue;
     background-color: purple;
+    border: 0;
 }
 
-#startbutton:hover {
+#startButton:hover {
     background-color: blueviolet;
 }
