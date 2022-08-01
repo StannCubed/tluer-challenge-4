@@ -26,3 +26,12 @@ main p {
     cursor: pointer;
     color: violet;
 }
+
+#startbutton {
+    color: aliceblue;
+    background-color: purple;
+}
+
+#startbutton:hover {
+    background-color: blueviolet;
+}
