@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 9px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+}
+
+main p {
+    padding: 9px 20%;
+}
+
+#highscores {
+    color: blueviolet;
+    background-color: white;
+    border: 0;
+}
+
+#highscores:hover {
+    cursor: pointer;
+    color: violet;
+}
